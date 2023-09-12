@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #60ABFB;
+    box-sizing: border-box; 
+    
+}
+.navbar{
+   text-align: center;
+   border: 1px solid red;
+   display: flex; 
+   
+   
+}

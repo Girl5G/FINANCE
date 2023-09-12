@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 400px;
+    height: 600px;
+    background-color: #4636FC;
+    margin-left: 300px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form_hearding{
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: white;
+    padding-top: 5px;
+}
+.bonjour{
+    color: white;
+    padding-bottom: 25px;
+    font-size: 1.1rem;
+}
+.maman{
+   
+   width: 55%; 
+   height: 40px;
+   margin-top: -15px;
+   border-radius: 10px;
+   background-color: #AEE1FC;
+   font-size: 1.2rem;
+} 
+.nour{
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.nathan{
+    width: 180%; 
+   height: 45px;
+   background-color: #AEE1FC;
+   border-radius: 10px;
+   padding-top: 15px;
+   margin-bottom: 15px;
+   margin-left: -50px;
+   font-size: 1.2rem;
+   
+}
+.mimi{
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 20px; 
+    
+}
+.nono .main_input{
+    width: 150%;
+    height: 45px;
+    background-color: #AEE1FC;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: -50px;
+    font-size: 1.2rem;
+}
+.oui{
+    
+    color: white;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+}
+.lou .main_text_input{
+    height:45px ;
+    width: 125%;
+    background-color: #AEE1FC;
+   padding-top: 15px;
+   border-radius: 15px;
+   text-align: center;
+   font-size: 1.2rem;
+}
+.bouton {
+    height: 70px;
+    width: 100%;
+    background-color: #4636FC;
+    padding-top: 20px;
+    padding-left: 25px}
+
+    .main_submit_button{
+        font-size: 1.2rem;
+        color: white;
+        width: 70%;
+        height: 45px;
+        background-color:#AEE1FC ;
+        border-radius: 15px;
+        padding-left: 15px;
+    }
+    
