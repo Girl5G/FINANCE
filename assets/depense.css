@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    
+    
+    
+  }
+  table,
+  td {
+    color:white;
+  /*background-color:rgb(196, 232, 255);*/
+  margin-left: 230Px;
+  width: 1500px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  }
+  table tr.fondGris{
+  background-color: #696969;
+  
+  }
+  table tr.fondBleue{
+  
+    background-color: rgba(0, 60, 255, 0.545);
+  }
+  
+  thead,
+  tfoot {
+    background-color:#696969;
+    color: #fff;
+   
+  }
+  
+  .bleu{
+    margin-left: 1300px;
+    margin-top: 100px;
+  }
+  .navbar{
+    background-color: bisque;
+    font-size: 15px;
+    margin-left: -30px;
+    
+  
+  }
+  .logo{
+  margin-left: 100px;
+  }
+  h1{
+    text-align: center;
+  }
+  .tableau{
+    
+   
+    justify-content: center;
+    width: 300px;
+  
+  }
+  .entete{
+    height: 60px;
+    background-color: rgba(0, 60, 255, 0.545) ;
+  }
+  h1{
+    margin-top: 30px;
+    font-size: 2.5rem;
+  }
+  button{
+    font-size: 2rem;
+    border-radius: 8px;
+    background-color: rgba(0, 60, 255, 0.545) ;
+   color:white;
+   margin-left: 800px;
+   margin-top: 25px;
+   height: 65px;
+  }
+  button:hover{
+    background-color:white;
+    border: 1px solid black;
+    color:  red;
+    font-weight: bolder;
+  }
+  
+  tr td span{
+    margin: 5px 1rem;
+    padding: 9px 1rem;
+    cursor: pointer;
+  }
+  
+  
+  
+  tr td span.modifier{
+    background-color: green;
+  }
+  
+  tr td span.supprimer{
+   
+    background-color: red;
+  }
+  tr td span:hover{
+    background-color: white;
+    border: 1px solid green;
+    color:  green;
+    font-weight: bolder;
+  }
+  a{
+    text-decoration: none;
+  }
