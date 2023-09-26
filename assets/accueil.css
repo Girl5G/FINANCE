@@ -81,6 +81,7 @@ body{
     width: 800px;
 }
 .paragraphe h1{
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -113,7 +114,7 @@ button{
 
 .foutage{
     width: 100vw;
-    height: 500px;
+    height: 400px;
     background-color:#60ABFB;
 }
 .fout{

@@ -109,3 +109,9 @@
   a{
     text-decoration: none;
   }
+#popup{
+  width: 200px;
+  height: 270px;
+  background-color: #60ABFB;
+  margin-left: 100px;
+}

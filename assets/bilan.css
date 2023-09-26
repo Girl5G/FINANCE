@@ -1,0 +1,19 @@
+table, caption, th, td {
+
+    border: 2px solid white;
+      border-collapse: collapse;
+    width: 90px;
+    height: 60px;
+    background-color: #60ABFB;
+    
+    }
+h1{
+text-align: center;
+} 
+header{
+  margin-left: 850px;
+}
+rowspan{
+
+  color: white;
+}   

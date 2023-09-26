@@ -1,119 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>depense</title>
-    <link rel="stylesheet" href="../assets/depense.css">
-</head>
-<body>
-    <div>
-        
-        
-        <h1> Les Depenses Effectuer</h1>
-  
-        </div>
-      <div class ="tableau">
-          <table>
-              <thead>
-                <tr class="entete">
-                  <th colspan="">ordre</th>
-                  <th colspan="">intitile</th>
-                  <th colspan="">valeur depenser</th>
-                  <th colspan="">Detail</th>
-                  <th colspan="">Action</th>
-                </tr>
-              </thead>
-              <tbody>
-  
-                <tr class="fondGris">
-                  <td>01</td>
-                  <td>Achat de Riz</td>
-                  <td>20 k</td>
 
-                  <td>5 sacs de 50kg</td>
-                  <td>
-                    <a href="./modifier.html#01"><span class="modifier">Modifier</span></a>
-                    <a href="./supprimer.html#01"><span class="supprimer">Supprimer</span></a>
-                  </td> 
-                </tr>
-  
-                <tr class="fondBleue">
-                  <td>02</td>
-                  <td>Achat de banane</td>
-                  <td>12k</td>
-                  <td>10 regimes de bananes</td>
-                  <td>
-                    <a href="./modifier.html#02"><span class="modifier">Modifier</span></a>
-                    <a href="./supprimer.html#02"><span class="supprimer">Supprimer</span></a>
-                  </td>
-                </tr>
-                <tr class="fondGris">
-                <td>03</td>
-                  <td> Acha de placali</td>
-                  <td>2k</td>
-                  <td>3 sacs de placalis</td>
-                  <td>
-                    <a href="./modifier.html#03"><span class="modifier">Modifier</span></a>
-                    <a href="./supprimer.html#03"><span class="supprimer">Supprimer</span></a>
-                  </td>
-              </tr>
-              <tr class="fondBleue">
-                  <td>04</td>
-                    <td>Achat de viande</td>
-                    <td>11k</td>
-                    <td>100kg de viandes de boeuf</td>
-                    <td>
-                      <a href="./modifier.html#04"><span class="modifier">Modifier</span></a>
-                      <a href="./supprimer.html#04"><span class="supprimer">Supprimer</span></a>
-                    </td>
-                </tr>
-                
-                <tr class="fondGris" >
-                  <td>05</td>
-                    <td>Achat de condiments</td>
-                    <td>33k</td>
-                    <td>20kg de tomates et aubergines</td>
-                    <td>
-                      <span class="modifier">Modifier</span>
-                      <span class="supprimer">Supprimer</span>
-                    </td>
-                </tr>
-                <tr class="fondBleue">
-                  <td>06</td>
-                    <td>Acha de farine</td>
-                    <td>09k</td>
-                    <td>10kg de farines de blé</td>
-                    <td>
-                      <span class="modifier">Modifier</span>
-                      <span class="supprimer">Supprimer</span>
-                    </td>
-                </tr>
-                <tr class="fondGris">
-                  <td>07</td>
-                    <td>Achat d'eau mineral</td>
-                    <td>90k</td>
-                    <td>30 paques d'eau celestes</td>
-                    <td>
-                      <span class="modifier">Modifier</span>
-                      <span class="supprimer">Supprimer</span>
-                    </td>
-                </tr>
-                <tr class="fondBleue">
-                  <td>08</td>
-                    <td>Acha de poulet</td>
-                    <td>04k</td>
-                    <td>250 poulets</td>
-                    <td>
-                     <span class="modifier">Modifier</span>
-                      <span class="supprimer">Supprimer</span>
-                    </td>
-                </tr>
-                  
-              </tbody>
-            </table>
-      </div>
-      <a href=""></a> <button>Ajouter une nouvelle depense</button></a>
-      
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modifier Element</title>
+  <link rel="stylesheet" href="../assets/depense.css">
+</head>
+
+<body>
+  <!-- Formulaire de modification (initiallement caché) -->
+  <div id="popup" style="display: none;">
+    <h2>Modifier l'élément</h2>
+    <form id="modifierForm">
+      <label for="intitule">Intitule:</label>
+      <input type="text" id="intitule" name="intitule" required><br><br>
+
+      <label for="valeur">Valeur de dépense:</label>
+      <input type="text" id="valeur" name="valeur" required><br><br>
+
+      <label for="detail">Détail:</label>
+      <input type="text" id="detail" name="detail"><br><br>
+
+      <input type="submit" value="Modifier">
+    </form>
+  </div>
+  <h1 style="text-align: center;">Liste des Dépense</h1>
+  <!-- Tableau des éléments -->
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Intitule</th>
+        <th>Valeur de dépense</th>
+        <th>Détail</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <button>Enregistrer</button>
 </body>
+
+<script src="../javascript/depense.js"></script>
 </html>

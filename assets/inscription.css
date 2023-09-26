@@ -10,14 +10,22 @@ body{
     align-items: center;
 
 }
+.retou{
+    text-decoration: none;
+    margin-right: 250px;
+    color: white;
+}
+.retou:hover{
+    color:green;
+}
 form{
-    width: 400px;
+    width: 300px;
     height: 600px;
     background-color: #60ABFB; 
-    margin-left: 250px;
-    margin-top: 40px;
-    text-align: center;
-    border-radius: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+     text-align: center; 
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,8 +45,8 @@ form{
 }
 .maman{
    
-   width: 55%; 
-   height: 40px;
+    width: 200px; 
+    height: 45px;
    margin-top: -15px;
    border-radius: 10px;
    background-color: white;
@@ -52,13 +60,13 @@ form{
 
 
 .nathan{
-    width: 180%; 
-   height: 45px;
+    width: 200px; 
+    height: 45px;
    background-color: white;
    border-radius: 10px;
    padding-top: 15px;
    margin-bottom: 15px;
-   margin-left: -50px;
+  margin: 0 auto;
    font-size: 1.2rem;
    
 }
@@ -69,13 +77,13 @@ form{
     
 }
 .nono .main_input{
-    width: 150%;
+    width: 200px; 
     height: 45px;
     background-color:white;
     border-radius: 10px;
-    text-align: center;
+    text-align: center; 
     margin-left: -30px;
-    margin-top: -50px;
+    margin: 0 auto;
     font-size: 1.2rem;
 }
 .oui{
@@ -85,35 +93,45 @@ form{
     font-size: 1.1rem;
 }
 .lou .main_text_input{
-    height:45px ;
-    width: 125%;
+    width: 200px; 
+    height: 45px;
+    margin: 0 auto;
     background-color: white;
    padding-top: 15px;
-   border-radius: 15px;
+   border-radius: 10px;
    text-align: center;
    font-size: 1.2rem;
 }
 .bouton {
-    height: 70px;
-    width: 100%;
+    width: 200px; 
+    height: 45px;
+    margin: 0 auto;
     background-color: #60ABFB; 
     padding-top: 20px;
     padding-left: 25px}
 
     .main_submit_button{
         font-size: 1.2rem;
-        width: 70%;
+        width: 200px; 
         height: 45px;
+        margin: 1px auto;
         background-color:white ;
-        border-radius: 15px;
-        padding-left: 15px;
-       
-
+        border-radius: 12px;
+        margin-left: -30px;
     }
     .main_submit_button .connect{
         text-decoration: none;
     }
     .connect:hover{
+        color: red;
+    }
+    .paragraphe{
+        margin-top: 50px;
+    }
+    .connexion{
+        text-decoration: none;
+    }
+    .connexion:hover{
         color: red;
     }
     
