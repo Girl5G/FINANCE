@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/tableau.css">
-    <script src="../javascript/tableau.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../assets/tableau.css">
+  <script src="../javascript/tableau.js" defer></script>
 </head>
+
 <body>
-      <div> 
-      <h1> Gestion des entrées</h1>
+  <!-- Formulaire de modification (initiallement caché) -->
+  <div id="popup" style="display: none;">
+    <h2>Modifier l'élément</h2>
+    <form id="modifierForm">
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" name="nom" required><br><br>
 
-      </div>
-    <div class ="tableau">
-        <table>
-            <thead>
-              <tr class="entete">
-                <th colspan="">ordre</th>
-                <th colspan="">nom</th>
-                <th colspan="">quantité</th>
-                <th colspan="">prix</th>
-                <th colspan="">Info</th>
-                <th colspan="">Action</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+      <label for="quantite">quantité:</label>
+      <input type="text" id="quantite" name="quantite" required><br><br>
 
-          
-    </div>
-    <button><a href="./enregistrer.html">Enregistrer</a></button>
+      <label for="prix">Prix:</label>
+      <input type="text" id="prix" name="prix"><br><br>
+
+      <label for="info">Info:</label>
+      <input type="text" id="info" name="info"><br><br>
+
+      <input type="submit" value="Modifier">
+    </form>
+  </div>
+
+  
+  <div>
+    <h1> Gestion des entrées</h1>
+  </div>
+  <div class="tableau">
+    <table>
+      <thead>
+        <tr class="entete">
+          <th colspan="">ordre</th>
+          <th colspan="">nom</th>
+          <th colspan="">quantité</th>
+          <th colspan="">prix</th>
+          <th colspan="">Info</th>
+          <th colspan="">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+
+  </div>
+  <button><a href="./enregistrer.html">Enregistrer</a></button>
 </body>
+
 </html>
