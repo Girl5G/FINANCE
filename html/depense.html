@@ -13,16 +13,16 @@
   <div id="popup" style="display: none;">
     <h2>Modifier l'élément</h2>
     <form id="modifierForm">
-      <label for="intitule">Intitule:</label>
+      <label for="intitule">Intitule:</label> <br>
       <input type="text" id="intitule" name="intitule" required><br><br>
 
       <label for="valeur">Valeur de dépense:</label>
       <input type="text" id="valeur" name="valeur" required><br><br>
 
-      <label for="detail">Détail:</label>
+      <label for="detail">Détail:</label> <br>
       <input type="text" id="detail" name="detail"><br><br>
 
-      <input type="submit" value="Modifier">
+      <input type="submit" id="soumettre" value="Modifier">
     </form>
   </div>
   <h1 style="text-align: center;">Liste des Dépense</h1>
@@ -40,6 +40,7 @@
     <tbody></tbody>
   </table>
   <a href="./nouvelledepense.html"><button>Enregistrer</button></a>
+  <a class="retou" href="../index.html">Retour</a>
 </body>
 
 <script src="../javascript/depense.js"></script>

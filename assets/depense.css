@@ -75,7 +75,7 @@
    color:white;
    margin-left: 800px;
    margin-top: 25px;
-   height: 65px;
+   height: 45px;
   }
   button:hover{
     background-color:white;
@@ -93,12 +93,12 @@
   
   
   tr td span.modifier{
-    background-color: green;
+    background-color: rgb(50, 49, 49);
   }
   
   tr td span.supprimer{
    
-    background-color: red;
+    background-color: rgb(151, 210, 244);
   }
   tr td span:hover{
     background-color: white;
@@ -110,8 +110,32 @@
     text-decoration: none;
   }
 #popup{
-  width: 200px;
-  height: 270px;
-  background-color: #60ABFB;
+  width: 280px;
+  height: 280px;
+  background-color:rgba(0, 60, 255, 0.545);
   margin-left: 100px;
+  border-radius: 5px;
+}
+#intitule{
+  width: 150px;
+  height: 30px;
+  margin-left: 50px;
+}
+#valeur{
+  width: 150px;
+  height: 30px;
+  margin-left: 50px;
+}
+#detail{
+  width: 150px;
+  height: 30px;
+  margin-left: 50px;
+}
+#soumettre{
+  width: 100px;
+  height: 30px;
+  margin-left: 80px; 
+}
+.retou{
+  margin-left: 20px;
 }

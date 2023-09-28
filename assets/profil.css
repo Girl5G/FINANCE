@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.profile{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.form{
+    margin-left: 100px;
+    margin-bottom: 50px;
+   margin-top: 40px;
+   
+    
+}
+.ima{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.image{
+    border-radius: 10px;
+    display: flex;
+   width:600px ;
+   height: auto;
+   background-color: #60ABFB;
+    margin: O auto;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+select{
+    width: 210px;
+    height: 30px;
+}
+button{
+    margin-bottom: 30px;
+    width: 100px;
+    height: 30px;
+   margin-left: 50px;     
+}
+
+

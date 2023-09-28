@@ -4,12 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body{
-  
-  
-  
-}
 table,
 td {
   color:white;
@@ -23,43 +17,25 @@ margin-top: 50px;
 }
 table tr.fondGris{
 background-color: #696969;
-
 }
 table tr.fondBleue{
-
   background-color: rgba(0, 60, 255, 0.545);
 }
-
 thead,
 tfoot {
   background-color:#696969;
   color: #fff;
- 
 }
-
 .bleu{
   margin-left: 1300px;
   margin-top: 100px;
-}
-.navbar{
-  background-color: bisque;
-  font-size: 15px;
-  margin-left: -30px;
-  
-
-}
-.logo{
-margin-left: 100px;
 }
 h1{
   text-align: center;
 }
 .tableau{
-  
- 
   justify-content: center;
   width: 300px;
-
 }
 .entete{
   height: 60px;
@@ -77,22 +53,17 @@ button{
  margin-left: 800px;
  margin-top: 25px;
 }
-
 tr td span{
   margin: 5px 1rem;
   padding: 9px 1rem;
   cursor: pointer;
 }
-
-
-
 tr td span.modifier{
-  background-color: green;
+  background-color: rgb(50, 49, 49);
 }
-
 tr td span.supprimer{
  
-  background-color: red;
+  background-color: rgb(151, 210, 244);
 }
 tr td span:hover{
   background-color: white;
@@ -103,4 +74,47 @@ tr td span:hover{
 a{
   text-decoration: none;
 }
+#popup{
+  width: 280px;
+  height: 370px;
+  background-color:rgba(0, 60, 255, 0.545);
+  margin-left: 100px;
+  border-radius: 5px;
+}
+#nom{
+  width: 150px;
+  height: 30px;
+  margin-left: 50px;
+}
+#quantite{
+  width: 150px;
+  height: 30px;
+  margin-left: 50px;
+}
+.inpout{
+  width: 150px;
+  height: 30px;
+  margin-left: 50px;
+}
+#info{
+  width: 150px;
+  height: 30px;
+  margin-left: 50px;
+}
+#soumettre{
+  width: 100px;
+  height: 30px;
+  margin-left: 80px; 
+}
+.soumettre
+{width: 100px;
+height: 30px;
+margin-left: 80px;  
+}
+.retou{
+  margin-left: 20px;
+  color: black;
+} 
+
+
 

@@ -114,26 +114,12 @@ button{
 
 .foutage{
     width: 100vw;
-    height: 400px;
-    background-color:#60ABFB;
+    height: 200px;
+    background-color:#60ABFB;   
 }
-.fout{
+.flout{
     text-align: center;
-    justify-content: space-between;
-    font-size: 1.3rem;
-    color: #fff;
+}
+.ima{
     display: flex;
-    word-spacing: 3px;
-}
-.image{
-    margin-left: 150px;
-    width: 50px;
-    display: contents;
-    margin-top: 30px;
-    display:flex ;
-    
-    
-}
-h1{
-    color: #fff;
 }
